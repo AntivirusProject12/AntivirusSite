@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to right, rgb(5, 18, 5), rgb(30, 135, 30));
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgb(99, 99, 99);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #333;
+}
+.antivirus {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgb(138, 138, 138);
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.antivirus img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #494949;
+}
+.antivirus h2 {
+    color: #0008ff;
+}
+.antivirus p {
+    margin: 5px 0;
+}
+.reverse {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+.antivirus img.left {
+    margin-right: 15px;
+}
+.antivirus img.right {
+    margin-left: 15px;
+}
+
+.lang a {
+    color: #000000;
+    text-decoration: none;
+    background-color: #0050a1;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.lang a:hover {
+    background-color: #42a1ff;
+    transform: scale(1.07);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.lang {
+    margin: 0px 0;
+}
+#antivirus {
+    background: rgb(114, 114, 114);
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+}
